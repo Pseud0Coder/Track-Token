@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- fluorescent hi-tech palette -->
+    <color name="neon_green">#FF39FF14</color>
+    <color name="neon_green_dim">#5539FF14</color>
+    <color name="neon_cyan">#FF00F5FF</color>
+    <color name="neon_cyan_dim">#5500F5FF</color>
+    <color name="neon_magenta">#FFFF2BD6</color>
+    <color name="neon_magenta_dim">#55FF2BD6</color>
+    <color name="neon_yellow">#FFE9FF00</color>
+    <color name="neon_orange">#FFFF7A00</color>
+    <color name="neon_violet">#FF9B5CFF</color>
+
+    <!-- surfaces -->
+    <color name="panel">#FF05070A</color>
+    <color name="panel_2">#FF0A0F14</color>
+    <color name="line">#1F39FF14</color>
+    <color name="line_strong">#3D39FF14</color>
+    <color name="stroke_neon">#FF1B4D14</color>
+
+    <!-- type -->
+    <color name="text_dim">#FF6B8078</color>
+    <color name="text_mid">#FF9DB3AA</color>
+    <color name="text_body">#FFE6FFF4</color>
+    <color name="alert">#FFFF3B6B</color>
+</resources>

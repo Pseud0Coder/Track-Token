@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrackToken</string>
+    <string name="brand">TRACK//TOKEN</string>
+    <string name="tagline">CREDIT + TOKEN TELEMETRY</string>
+
+    <string name="sync">SYNC</string>
+    <string name="syncing">SYNCING…</string>
+    <string name="add_key">+ ADD KEY</string>
+
+    <string name="stat_remaining">REMAINING</string>
+    <string name="stat_keys">KEYS</string>
+    <string name="stat_alerts">ALERTS</string>
+
+    <string name="empty_title">NO API KEYS LINKED</string>
+    <string name="empty_body">Add an OpenRouter, DeepSeek, Novita or custom\\nendpoint key to start tracking credits.</string>
+
+    <string name="edit_title_new">LINK API KEY</string>
+    <string name="edit_title_existing">EDIT KEY</string>
+    <string name="label_provider">PROVIDER</string>
+    <string name="label_name">LABEL</string>
+    <string name="label_name_hint">e.g. main account</string>
+    <string name="label_key">API KEY</string>
+    <string name="label_key_hint">sk-or-…</string>
+    <string name="label_endpoint">BALANCE URL  (use {key} to inline the key)</string>
+    <string name="label_remaining_path">JSON PATH · REMAINING</string>
+    <string name="label_spent_path">JSON PATH · SPENT</string>
+    <string name="label_tokens_used_path">JSON PATH · TOKENS USED</string>
+    <string name="label_tokens_limit_path">JSON PATH · TOKENS LIMIT</string>
+    <string name="label_currency">CURRENCY LABEL</string>
+    <string name="hint_json_path">data.credits.left</string>
+    <string name="save">SAVE</string>
+    <string name="delete">DELETE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="validation_key">Enter an API key</string>
+    <string name="validation_label">Enter a label</string>
+    <string name="validation_endpoint">Enter a balance URL</string>
+    <string name="validation_remaining">Enter a remaining JSON path</string>
+
+    <!-- widget picker labels + descriptions -->
+    <string name="wgt_label_hud">TrackToken · HUD</string>
+    <string name="wgt_label_terminal">TrackToken · Terminal</string>
+    <string name="wgt_label_pulse">TrackToken · Pulse</string>
+    <string name="wgt_label_matrix">TrackToken · Matrix</string>
+    <string name="wgt_label_led">TrackToken · LED</string>
+
+    <string name="wgt_desc_hud">Top three provider balances as neon gauge rows on a black panel.</string>
+    <string name="wgt_desc_terminal">Monospace credit readout styled like a live console line.</string>
+    <string name="wgt_desc_pulse">Big remaining-credit percentage with an eight-segment fluoro meter.</string>
+    <string name="wgt_desc_matrix">Four provider balance bars stacked in a tall matrix grid.</string>
+    <string name="wgt_desc_led">Compact single-number credit readout with a slim meter.</string>
+</resources>

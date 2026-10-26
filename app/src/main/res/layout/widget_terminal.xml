@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wgt_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wgt_panel_green"
+    android:orientation="vertical"
+    android:padding="11dp">
+
+    <TextView
+        android:id="@+id/term_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="&gt; tracktoken --credits"
+        android:textColor="#39FF14"
+        android:textSize="9sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/wgt_divider" />
+
+    <TextView
+        android:id="@+id/term_line_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="#39FF14"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/term_line_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="#39FF14"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/term_line_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="#39FF14"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/term_foot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:fontFamily="monospace"
+        android:letterSpacing="0.1"
+        android:text="sync --:--"
+        android:textColor="#6B8078"
+        android:textSize="8sp" />
+
+</LinearLayout>
